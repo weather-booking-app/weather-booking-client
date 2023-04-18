@@ -1,0 +1,30 @@
+.image-container {
+    margin-top: 1px;
+    display: flex;
+    /* background: blue; */
+    width: 100vw;
+    justify-content: space-around;
+    align-item: center;
+}
+
+.overall-container {
+    margin-top: 10vh;
+}
+
+.middleText-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.middle-text {
+    margin: auto;
+}
+
+.next-button {
+    /*background-color: aliceblue;*/
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}

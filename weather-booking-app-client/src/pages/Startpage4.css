@@ -1,0 +1,33 @@
+.image-container {
+    margin-top: 1px;
+    display: flex;
+    /*background: blue; */
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.overall-container {
+    margin-top: 10vh;
+}
+
+.contentText-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-text {
+    margin: auto;
+}
+
+.book-button {
+    margin-top: 1px;
+}
+
+.bookButton-container {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
