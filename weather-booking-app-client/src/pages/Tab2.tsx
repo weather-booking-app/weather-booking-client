@@ -1,8 +1,15 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
+import Map, { NavigationControl } from 'react-map-gl';
+import endpoints from '../endpoints.config';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import AddLocation from './AddLocation';
+
+const mapboxAPIToken = 'pk.eyJ1IjoibGVvbmFyZG9wcmFzZXR5bzUiLCJhIjoiY2xneHNjYjB4MDJnZDN2cXEzeGZ1YjR5MyJ9.nalIoKCttMHS_6NdVxo6DQ'
 
 const Tab2: React.FC = () => {
+
   return (
     <IonPage>
       <IonHeader>
@@ -16,7 +23,8 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Tab 2</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+        <AddLocation />
+
       </IonContent>
     </IonPage>
   );
